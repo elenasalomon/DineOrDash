@@ -3,7 +3,7 @@
 > Sistema de recomendación de restaurantes basado en reseñas de Yelp — Philadelphia.
 
 **Sistemas de Recomendación — Especialización en Ciencia de Datos e IA (UTEC – MIT)**  
-Martina Ibarra · Elena Salomón · Florencia Nebot · 2026
+Martina Ibarra · Elena Salomón · Florencia Nebot · 2025
 
 ---
 
@@ -27,10 +27,22 @@ El proyecto parte de la paradoja de la elección: demasiadas opciones paralizan 
 
 ---
 
+## Flujo del Proyecto
+
+El proyecto se divide en dos notebooks que deben ejecutarse en orden:
+
+**1. `1_Dataset_Sistema_de_recomendacion_restaurantes_MIT.ipynb`** — Data Engineering  
+Consolida las tablas de Business, Users y Reviews del Yelp Open Dataset en el dataset final listo para modelado. Incluye filtrado de restaurantes activos, normalización de atributos, binarización de variables, creación de subcategorías y selección de usuarios con historial suficiente.
+
+**2. `restaurant_recommendation.ipynb`** — Modelos de Recomendación  
+Entrena y evalúa los seis modelos progresivos sobre el dataset construido en el paso anterior.
+
+---
+
 ## Modelos
 
 | # | Modelo | RMSE | Precisión | Recall | F1 |
-|---|--------|------|-----------|--------|----|
+|---|--------|------|-----------|--------|-------|
 | 1 | Rank Based (baseline) | — | — | — | — |
 | 2 | CF User-User (KNN) | 1.1203 | 0.736 | 0.823 | 0.777 |
 | 3 | CF Item-Item (KNN) | 1.1356 | 0.729 | 0.827 | 0.775 |
@@ -75,7 +87,9 @@ Python · scikit-surprise · VADER (NLTK) · NetworkX · spaCy · pandas · seab
 
 ```
 DineOrDash/
-├── restaurant_recommendation.ipynb
+├── 1_Dataset_Sistema_de_recomendacion_restaurantes_MIT.ipynb  ← data engineering
+├── restaurant_recommendation.ipynb                            ← modelos
+├── Restaurants_recommendation_system.pptx
 └── README.md
 ```
 
