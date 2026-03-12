@@ -3,7 +3,7 @@
 > Sistema de recomendación de restaurantes basado en reseñas de Yelp — Philadelphia.
 
 **Sistemas de Recomendación — Especialización en Ciencia de Datos e IA (UTEC – MIT)**  
-Martina Ibarra · Elena Salomón · Florencia Nebot · 2025
+Martina Ibarra · Elena Salomón · Florencia Nebot · 2026
 
 ---
 
