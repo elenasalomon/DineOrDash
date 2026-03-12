@@ -3,7 +3,7 @@
 > Sistema de recomendación de restaurantes basado en reseñas de Yelp — Philadelphia.
 
 **Sistemas de Recomendación — Especialización en Ciencia de Datos e IA (UTEC – MIT)**  
-Martina Ibarra · Elena Salomón · Florencia Nebot · 2025
+Martina Ibarra · Elena Salomón · Florencia Nebot · 2026
 
 ---
 
@@ -89,7 +89,6 @@ Python · scikit-surprise · VADER (NLTK) · NetworkX · spaCy · pandas · seab
 DineOrDash/
 ├── 1_Dataset_Sistema_de_recomendacion_restaurantes_MIT.ipynb  ← data engineering
 ├── restaurant_recommendation.ipynb                            ← modelos
-├── Restaurants_recommendation_system.pptx
 └── README.md
 ```
 
