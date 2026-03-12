@@ -76,7 +76,6 @@ Python · scikit-surprise · VADER (NLTK) · NetworkX · spaCy · pandas · seab
 ```
 DineOrDash/
 ├── restaurant_recommendation.ipynb
-├── Restaurants_recommendation_system.pptx
 └── README.md
 ```
 
